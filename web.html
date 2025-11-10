@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel by zalfa shop bird</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+
+    <div class="container" id="bird">
+       <nav>
+        <img src="images/begronawalburung.jpeg" class="logo">
+        <a href="#" class="btn">Kembali</a>
+       </nav> 
+       <div class="content">
+       <h2>Burung</h2>
+       <h1>Murai Batu</h1>
+       <p>burung murai ini sangat gacor.</p>
+       <h3>Pilih</h3>
+       <div class="color-select">
+       <div id="red"></div>
+       <div id="blue"></div>
+       <div id="black"></div>
+       </div>
+       </div>
+    </div>
+    <script>
+       let redBtn = document.getElementById("red");
+        let blueBtn = document.getElementById("blue");
+        let blackBtn = document.getElementById("black");
+        let car = document.getElementById("car");
+
+        redBtn.onclick = function(){
+        car.style.backgroundImage = "url(Image/https://i.pinimg.com/1200x/c5/1c/9e/c51c9ef2f86c817adbff10c25b22d19e.jpg)";
+        }
+
+        blueBtn.onclick = function(){
+        car.style.backgroundImage = "url(Image/https://id.pinterest.com/pin/681591724894809110/)";
+        }
+
+        blackBtn.onclick = function(){
+        car.style.backgroundImage = "url(Image/https://id.pinterest.com/pin/356839970497957368/)";
+        }
+    </script>
+</body>
+</html>
